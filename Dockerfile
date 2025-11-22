@@ -1,11 +1,9 @@
-# --- Imagen base ---
 FROM python:3.11-slim
 
-# --- Configuración básica ---
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
-# --- Instalar dependencias necesarias para Chrome ---
+# --- Dependencias esenciales para Chrome en Debian 13 ---
 RUN apt-get update && apt-get install -y \
     wget \
     unzip \
@@ -17,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     libatk-bridge2.0-0 \
     libcups2 \
     libdbus-1-3 \
-    libgdk-pixbuf2.0-0 \
+    libgdk-pixbuf-2.0-0 \
     libnspr4 \
     libnss3 \
     libx11-6 \
@@ -38,30 +36,25 @@ RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd6
     && apt-get install -y ./google-chrome-stable_current_amd64.deb \
     && rm google-chrome-stable_current_amd64.deb
 
-# --- Instalar ChromeDriver compatible ---
+# --- Instalar ChromeDriver para la versión exacta ---
 RUN CHROME_VERSION=$(google-chrome --version | sed 's/[^0-9.]//g' | cut -d '.' -f 1) && \
     DRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION) && \
     wget -q https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip && \
     unzip chromedriver_linux64.zip && \
-    mv chromedriver /usr/local/bin/ && \
+    mv chromedriver /usr/local/bin/chromedriver && \
     chmod +x /usr/local/bin/chromedriver && \
     rm chromedriver_linux64.zip
 
-# --- Variables para Selenium ---
 ENV CHROME_BIN=/usr/bin/google-chrome
 ENV CHROMEDRIVER_PATH=/usr/local/bin/chromedriver
 
-# --- Directorio trabajo ---
 WORKDIR /app
 
-# --- Instalar dependencias Python ---
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# --- Copiar proyecto ---
 COPY app/ /app/app/
 
-# --- Puerto expuesto ---
 EXPOSE 8081
 
-# --- Ejecutar s
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8081"]
