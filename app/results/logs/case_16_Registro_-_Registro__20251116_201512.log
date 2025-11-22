@@ -1,0 +1,57 @@
+📝 Ejecutando script generado por Manus...
+================================================================================
+================================================================================
+🚀 INICIO: REGISTRO DE USUARIO
+================================================================================
+
+📍 PASO 1: Navegando a https://www.celevro.com/registro
+✅ Página cargada: Registrarse | Celevro
+📸 Screenshot: /home/ubuntu/screenshot_01_20251116_201700.png
+
+📍 PASO 2: Ingresando nombre
+✅ Nombre ingresado: Juan
+
+📍 PASO 3: Ingresando apellido
+✅ Apellido ingresado: Pérez
+
+📍 PASO 4: Ingresando email
+✅ Email ingresado: juan.perez@test.com
+📸 Screenshot: /home/ubuntu/screenshot_02_20251116_201745.png
+
+📍 PASO 5: Ingresando contraseña
+🔒 *
+🔒 **
+🔒 ***
+🔒 ****
+🔒 *****
+🔒 ******
+🔒 *******
+🔒 ********
+🔒 *********
+🔒 **********
+✅ Contraseña ingresada
+
+📍 PASO 6: Seleccionando género
+✅ Género seleccionado: Masculino
+
+📍 PASO 7: Ingresando fecha de nacimiento
+✅ Fecha: 15/06/1990
+📸 Screenshot: /home/ubuntu/screenshot_03_20251116_201810.png
+
+📍 PASO 8: Aceptando términos
+⚠️ Checkbox opcional
+
+📍 PASO 9: Enviando formulario
+📸 Screenshot: /home/ubuntu/screenshot_04_20251116_201813.png
+✅ Formulario enviado
+
+📍 PASO 10: Validando registro
+🔗 URL actual: https://www.celevro.com/api/auth/register
+
+❌ REGISTRO FALLIDO
+📸 Screenshot: /home/ubuntu/screenshot_05_20251116_201825.png
+
+🏁 FIN DEL TEST
+================================================================================
+================================================================================
+✅ Script completado

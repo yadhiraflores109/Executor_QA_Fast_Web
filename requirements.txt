@@ -1,0 +1,22 @@
+# --- Framework principal ---
+fastapi==0.115.2
+uvicorn==0.31.1
+
+# --- Selenium y Navegadores ---
+selenium==4.24.0
+webdriver-manager==4.0.2
+
+# --- Manipulación y utilidades ---
+python-dotenv==1.0.1
+requests==2.32.3
+loguru==0.7.2
+
+# --- Archivos y reportes ---
+pandas==2.2.3
+
+# --- Sistema de archivos y uploads ---
+python-multipart==0.0.9
+
+# --- Testing (opcional) ---
+pytest==8.3.3
+

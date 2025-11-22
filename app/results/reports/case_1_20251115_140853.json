@@ -1,0 +1,11 @@
+{
+    "test_name": "case_1",
+    "status": "error",
+    "timestamp": "20251115_140732",
+    "execution_time": 80.97646951675415,
+    "log_file": "app/results/logs/case_1_20251115_140732.log",
+    "screenshot": "app/results/screenshots/case_1_20251115_140732.png",
+    "message": "Error: invalid syntax (<string>, line 1)\nTraceback (most recent call last):\n  File \"C:\\Users\\ANDERSON\\Downloads\\EXECUTER_QA_FAST_WEB\\app\\executor.py\", line 71, in run_script\n    exec(script, exec_env)\n  File \"<string>\", line 1\n    Entendido, voy a generar el código Python ejecutable directamente para automatizar el login con Google Auth en celevro.com.He generado el código Python ejecutable para automatizar el login con Google Auth en Celevro. El código está listo para ejecutarse directamente sin clases ni funciones.\n                   ^\nSyntaxError: invalid syntax\n\n\nOutput antes del error:\n",
+    "steps_executed": [],
+    "generated_at": "20251115_140853"
+}

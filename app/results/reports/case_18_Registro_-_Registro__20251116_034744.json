@@ -1,0 +1,11 @@
+{
+    "test_name": "case_18_Registro_-_Registro_",
+    "status": "success",
+    "timestamp": "20251116_034244",
+    "execution_time": 300.55446004867554,
+    "log_file": "app/results/logs/case_18_Registro_-_Registro__20251116_034244.log",
+    "screenshot": "app/results/screenshots/case_18_Registro_-_Registro__20251116_034244.png",
+    "message": "✅ Test ejecutado exitosamente\n\nOutput capturado (1447 chars):\n📝 Ejecutando script generado por Manus...\n================================================================================\n================================================================================\n🚀 INICIO: REGISTRO DE USUARIO\n================================================================================\n\n📍 PASO 1: Navegando a https://www.celevro.com/registro\n✅ Página cargada: Registrarse | Celevro\n📸 Screenshot: /home/ubuntu/screenshots/step_01.png\n\n📍 PASO 2: Ingresando nombre\n✅ Nombre ingresado: Test\n\n📍 PASO 3: Ingresando apellido\n✅ Apellido ingresado: User\n\n📍 PASO 4: Ingresando email\n✅ Email ingresado: test@example.com\n📸 Screenshot: /home/ubuntu/screenshots/step_02.png\n\n📍 PASO 5: Ingresando contraseña\n🔒 *\n🔒 **\n🔒 ***\n✅ Contraseña ingresada\n\n📍 PASO 6: Seleccionando género\n✅ Género seleccionado: Femenino\n\n📍 PASO 7: Ingresando fecha de nacimiento\n✅ Fecha: 10/05/1995\n📸 Screenshot: /home/ubuntu/screenshots/step_03.png\n\n📍 PASO 8: Aceptando términos\n⚠️ Checkbox opcional\n\n📍 PASO 9: Enviando formulario\n📸 Screenshot: /home/ubuntu/screenshots/step_04.png\n✅ Formulario enviado\n\n📍 PASO 10: Validando registro\n🔗 URL actual: https://www.celevro.com/api/auth/register\n\n❌ REGISTRO FALLIDO\n📸 Screenshot: /home/ubuntu/screenshots/step_05.png\n\n🏁 FIN DEL TEST\n================================================================================\n================================================================================\n✅ Script completado\n",
+    "steps_executed": [],
+    "generated_at": "20251116_034744"
+}

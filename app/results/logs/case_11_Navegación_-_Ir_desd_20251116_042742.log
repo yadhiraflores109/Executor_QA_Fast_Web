@@ -1,0 +1,115 @@
+📝 Ejecutando script generado por Manus...
+================================================================================
+================================================================================
+🚀 INICIO: REGISTRO DE USUARIO
+================================================================================
+
+📍 PASO 1: Navegando a https://www.celevro.com/login
+✅ Página cargada: Iniciar sesión | Celevro
+📸 Screenshot: /home/ubuntu/screenshots/step_01.png
+
+📍 PASO 2: Ingresando nombre
+⚠️ Error en nombre: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6c90ca235
+	0x7ff6c8e22650
+	0x7ff6c8bb16dd
+	0x7ff6c8c0a27e
+	0x7ff6c8c0a58c
+	0x7ff6c8c5ed77
+	0x7ff6c8c5baba
+	0x7ff6c8bfb0ed
+	0x7ff6c8bfbf63
+	0x7ff6c90f5d60
+	0x7ff6c90efe8a
+	0x7ff6c9111005
+	0x7ff6c8e3d73e
+	0x7ff6c8e44e3f
+	0x7ff6c8e2b7e4
+	0x7ff6c8e2b99f
+	0x7ff6c8e11908
+	0x7ffbe2477374
+	0x7ffbe2c5cc91
+
+📸 Screenshot: /home/ubuntu/screenshots/step_02.png
+
+📍 PASO 3: Ingresando apellido
+⚠️ Error en apellido: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6c90ca235
+	0x7ff6c8e22650
+	0x7ff6c8bb16dd
+	0x7ff6c8c0a27e
+	0x7ff6c8c0a58c
+	0x7ff6c8c5ed77
+	0x7ff6c8c5baba
+	0x7ff6c8bfb0ed
+	0x7ff6c8bfbf63
+	0x7ff6c90f5d60
+	0x7ff6c90efe8a
+	0x7ff6c9111005
+	0x7ff6c8e3d73e
+	0x7ff6c8e44e3f
+	0x7ff6c8e2b7e4
+	0x7ff6c8e2b99f
+	0x7ff6c8e11908
+	0x7ffbe2477374
+	0x7ffbe2c5cc91
+
+📸 Screenshot: /home/ubuntu/screenshots/step_03.png
+
+📍 PASO 4: Ingresando email
+✅ Email ingresado: testuser@example.com
+📸 Screenshot: /home/ubuntu/screenshots/step_04.png
+
+📍 PASO 5: Ingresando contraseña
+❌ Error en contraseña: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6c90ca235
+	0x7ff6c8e22650
+	0x7ff6c8bb16dd
+	0x7ff6c8c0a27e
+	0x7ff6c8c0a58c
+	0x7ff6c8c5ed77
+	0x7ff6c8c5baba
+	0x7ff6c8bfb0ed
+	0x7ff6c8bfbf63
+	0x7ff6c90f5d60
+	0x7ff6c90efe8a
+	0x7ff6c9111005
+	0x7ff6c8e3d73e
+	0x7ff6c8e44e3f
+	0x7ff6c8e2b7e4
+	0x7ff6c8e2b99f
+	0x7ff6c8e11908
+	0x7ffbe2477374
+	0x7ffbe2c5cc91
+
+📸 Screenshot: /home/ubuntu/screenshots/step_05.png
+
+📍 PASO 6: Seleccionando género
+⚠️ Género no requerido: Message: no such element: Unable to locate element
+
+📍 PASO 7: Ingresando fecha de nacimiento
+⚠️ Fecha no requerida: Message: no such element: Unable to locate element
+
+📍 PASO 8: Aceptando términos
+✅ Términos aceptados
+
+📍 PASO 9: Enviando formulario
+📸 Screenshot: /home/ubuntu/screenshots/step_06.png
+✅ Formulario enviado
+
+📍 PASO 10: Validando registro
+🔗 URL actual: https://www.celevro.com/api/auth/email/login
+
+❌ REGISTRO FALLIDO
+📸 Screenshot: /home/ubuntu/screenshots/step_07.png
+
+🏁 FIN DEL TEST
+================================================================================
+================================================================================
+✅ Script completado

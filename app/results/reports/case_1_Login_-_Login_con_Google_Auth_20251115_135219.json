@@ -1,0 +1,11 @@
+{
+    "test_name": "case_1_Login_-_Login_con_Google_Auth",
+    "status": "error",
+    "timestamp": "20251115_134916",
+    "execution_time": 183.4316017627716,
+    "log_file": "app/results/logs/case_1_Login_-_Login_con_Google_Auth_20251115_134916.log",
+    "screenshot": "app/results/screenshots/case_1_Login_-_Login_con_Google_Auth_20251115_134916.png",
+    "message": "Error: Error al inicializar el navegador: Message: Can not connect to the Service app\\drivers\\chromedriver.exe\n",
+    "steps_executed": [],
+    "generated_at": "20251115_135219"
+}

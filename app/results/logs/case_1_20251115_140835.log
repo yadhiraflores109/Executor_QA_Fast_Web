@@ -1,0 +1,11 @@
+[20251115_140835] === Inicio: case_1 ===
+[20251115_140835] Ejecutando script...
+[20251115_140835] Error: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\ANDERSON\Downloads\EXECUTER_QA_FAST_WEB\app\executor.py", line 71, in run_script
+    exec(script, exec_env)
+  File "<string>", line 1
+    Entendido, voy a generar el código Python ejecutable directamente para automatizar el login con Google Auth en celevro.com.He generado el código Python ejecutable para automatizar el login con Google Auth en Celevro. El código está listo para ejecutarse directamente sin clases ni funciones.
+                   ^
+SyntaxError: invalid syntax
+
